@@ -1,0 +1,289 @@
+@media (max-width:1000px){
+    .nav2{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 4vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: flex;
+    }
+    .page1{
+        padding-top: 6vw;
+    }
+    .page2-bottom h1{
+        line-height: 3vw;
+    }
+    .page3{
+        display: none;
+    }
+    .responsive-page{
+        display: flex;
+        height: 70vh;
+    }
+    .page5{
+        display: none;
+    }
+    #full{
+        display: flex;
+    }
+    .image {
+        width: 25%;
+    }
+    .h{
+        border: none;
+        font-size: 7vw;
+        line-height: 7vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        border-radius: 0;
+        overflow: visible;
+    }
+}
+@media only screen and (max-width:700px){
+    .page2-bottom h1{
+        line-height: 6vw;
+    }
+}
+@media only screen and (max-width:1200px){
+    .page2-bottom h1{
+        font-size: 4vw;
+        line-height: 3rem;
+    }
+}
+@media only screen and (max-width:1100px){
+    .page2-bottom h1{
+        line-height: 2.8rem;
+    }
+    .image p{
+        font-size: 1.6vw;
+        line-height: 1.6vw;
+    }
+}
+@media only screen and (max-width:950px){
+    .page2-bottom h1{
+        line-height: 4vw;
+    }
+    .hero{
+        top: 63vh;
+    }
+}
+@media only screen and (max-width:900px){
+    .h{
+        border: none;
+        font-size: 8vw;
+        line-height: 8vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    .page2-bottom h1{
+        font-size: 5vw;
+        line-height: 4.5vw;
+    }
+    .h{
+        border: none;
+        font-size: 12vw;
+        line-height: 12vw;
+         }
+}
+@media only screen and (max-width:750px){
+    .h{
+        /* border: none; */
+        font-size: 10vw;
+        line-height: 10vw;
+    }
+}
+@media only screen and (max-width:850px){
+    .image{
+        width: 30%;
+    }
+    .image p{
+        font-size: 1.8vw;
+        line-height: 1.8vw;
+    }
+    .page2{
+        min-height: 50vh;
+        padding: 5 0;
+    }
+    .h{
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+}
+@media only screen and (max-width:750px){
+    .image{
+        width: 30%;
+    }
+    .image p{
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+}
+@media only screen and (max-width:600px){
+    .page2-bottom h1{
+        /* font-size: 6vw; */
+        line-height: 5vw;
+    }
+    .image{
+        width: 35%;
+    }
+    .image p{
+        font-size: 2.4vw;
+        line-height: 2.4vw;
+    }
+    .h{
+        font-size: 15zvw;
+        line-height: 15vw;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .h{
+        border: none;
+        font-size: 11vw;
+        line-height: 11vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        padding: 0;
+    }
+    .page1{
+        height: auto;
+    }
+    .center{
+        padding-top: 8vw;
+        height: 80vh;
+        /* background: white; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .center h1{
+        display: none;
+    }
+    .hero{
+        height: 60vw;
+        width: 60vw;
+    }
+    .hero2, .hero3{
+        height: 50vw;
+        width: 50vw;
+    }
+    .gola{
+        width: 5vw;
+        height: 5vw;
+    }
+    .image{
+        display: none;
+    }
+    .page2-bottom h1{
+        width: 100%;
+        padding: 12vw;
+        position: relative;
+        /* opacity: 0; */
+    }
+    .page2-bottom h1::after{
+       content: 'I love to create, I love to solve, I love to collaborate, and I love to turn amazing ideas into reality. I am here to partner with you through every step of the process and know that relationships are the most important things we build.';
+       width: 100%;
+       height: 100%;
+       font-size: 5vw;
+       line-height: 5vw;
+       background-color: #EFEAE3;
+       position: absolute;
+       top: 30px;
+       left: 0;
+       z-index: 999;
+    }
+    .animation{
+        top: 25%;
+        filter: blur(60px);
+        z-index: 995;
+        width: 60vw;
+        height: 60vw;
+    }
+    .swiper-slide{
+        width: 70%;
+    }
+    .viewp{
+        bottom: 20%;
+    }
+    .pro{
+        left: -25px;
+        font-size: 1rem;
+    }
+    .pflex{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .ppara{
+        width: 100%;
+        padding: 0;
+    }
+    .por{
+        border: none;
+        height: auto;
+    }
+    .ppara p {
+        margin-top: 80px;
+        font-size: 5vw;
+        line-height: 5.3vw;
+        letter-spacing: -0.2vw;
+        text-transform: capitalize;
+    }
+    .ppro{
+        height: 60vh;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .pperfo{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .pperformance{
+        height: 120vh;
+    }
+    .pvid{
+        display: none;
+    }
+    .full{
+        top: -100vh;
+    }
+    .pperfor{
+        width: 100%;
+    }
+    .pskills{
+        display: grid;
+        grid-template-columns: 100%;
+        height: auto;
+    }
+    .animations{
+        grid-template-columns: 100%;
+    }
+    .sub{
+        margin-top: 10px;
+    }
+    .contact{
+        height: 90vh;
+        padding: 5vw;
+        width: 90%;
+    }
+    .top{
+        top: -20px;
+    }
+    .foot{
+        flex-direction: column;
+    }
+}
