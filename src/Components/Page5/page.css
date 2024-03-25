@@ -2,8 +2,8 @@
   height: 100%;
 }
 
-.page5{
-  background-color: #EFEAE3;
+.page5 {
+  background-color: #efeae3;
   top: -20px;
   position: relative;
 }
@@ -37,7 +37,7 @@
   margin: 20px auto;
 }
 
-
-.swiper-button-next,.swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
   color: black;
 }
