@@ -69,7 +69,7 @@ const Navbar = () => {
         phone,
         message: "",
       });
-      success.play()
+      success.play();
       toast.success(data.message);
     } else {
       toast.error(data.message);
@@ -121,7 +121,9 @@ const Navbar = () => {
           <Link to="/" className={`h relative tracking-tighter z-50`}>
             Home
           </Link>
-          <Link to={'/contact'} className={`h relative z-50`}>Contact</Link>
+          <Link to={"/contact"} className={`h relative z-50`}>
+            Contact
+          </Link>
           <Link to="/portfolio" className={`h relative z-50`}>
             Portfolio
           </Link>

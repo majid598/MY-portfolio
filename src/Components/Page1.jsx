@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 
-
 const page1 = () => {
   return (
     <>
@@ -10,12 +9,12 @@ const page1 = () => {
             <div
               data-scroll
               data-scroll-speed="0.3"
-              className="profile w-64 h-[40vh] bg-red-400 rounded-md z-[9] relative overflow-hidden"
+              className="profile w-64 bg-red-400 rounded-md z-[9] relative overflow-hidden"
             >
               <img
-                className="w-full relative -top-24 object-cover"
+                className="w-full relative object-cover"
                 src="./assets/pfl.jpg"
-                alt=""
+                alt="Mr raju website Creator"
               />
             </div>
             <h3 className="shablu w-full text-xl py-4">
