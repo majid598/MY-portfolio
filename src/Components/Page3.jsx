@@ -43,14 +43,14 @@ const paje3 = () => {
               NEFLIX ClONE
             </a>
           </div>
-          <div class="elem" data-image="./assets/p4.jpg">
+          <div class="elem" data-image="./assets/diamond.png">
             <div class="overlay"></div>
             <a
               target="_blank"
               className="ho relative text-[3vw] hover:text-white hover:scale-95 z-[99]"
-              href=""
+              href="https://diamondlabs.io/"
             >
-              PIZZATA
+              DIAMONDLABS
             </a>
           </div>
           <div class="elem" data-image="./assets/my-web.png">
@@ -83,10 +83,7 @@ const paje3 = () => {
               SPOTIFY CLONE
             </a>
           </div>
-          <div
-            class="elem"
-            data-image="./assets/sherry.png"
-          >
+          <div class="elem" data-image="./assets/sherry.png">
             <div class="overlay"></div>
             <a
               target="_blank"

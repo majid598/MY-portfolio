@@ -106,7 +106,7 @@ const Contact = () => {
               <textarea
                 autocomplete="off"
                 rows="4"
-                className="bg-transparent border-2 text-black outline-none rounded-lg text-sm py-4 resize-none w-full px-2 pl-10 h-full"
+                className="bg-transparent border-2 outline-none rounded-lg text-sm py-4 resize-none w-full px-2 pl-10 h-full"
                 type="text"
                 name="message"
                 value={userDtails.message}
@@ -122,7 +122,7 @@ const Contact = () => {
             />
           </form>
         </div>
-        <ToastContainer pauseOnHover={false} position="bottom-center" />
+        <ToastContainer pauseOnHover={false} />
       </div>
     </Layout>
   );

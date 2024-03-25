@@ -12,7 +12,11 @@ const Portfolio = () => {
           <h1 className="w-full text-center text-3xl font-semibold">Say Hi</h1>
           <div className="pflex flex w-full px-16 justify-between">
             <div className="ppro w-[30%] bg-red-500 rounded-md overflow-hidden">
-              <img className="relative w-full" src="./assets/pfl.jpg" alt="Mr raju website Creator" />
+              <img
+                className="relative w-full"
+                src="./assets/pfl.jpg"
+                alt="Mr raju website Creator"
+              />
             </div>
             <div className="ppara w-1/2">
               <p className="text-2xl tracking-tighter">
@@ -30,7 +34,7 @@ const Portfolio = () => {
                 >
                   Code With alpha.
                 </a>
-                I also Created many frontend Projects for him
+                I also Created many frontend Projects for him .
               </p>
             </div>
           </div>
